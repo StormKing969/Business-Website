@@ -1,6 +1,5 @@
 :root {
-    --primary-background-color: #43DD8E;
-    --secondary-background-color: #4B97A3;
+    --primary-background-color: #4B97A3;
 }
 
 * {
@@ -12,22 +11,16 @@
 body {
     font-family: 'Cormorant Garamond', serif;
     line-height: 1.4;
-    background-color: var(--primary-color);
+    background-color: var(--primary-background-color);
 }
 
-.title_container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "nav_menu shop_icon";
+.title_container .logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%)
 }
 
-.menu-wrap {
-    grid-area: nav_menu;
-}
-
-.shop_button {
-    grid-area: shop_icon;
-    align-self: center;
-    width: 50px;
+.title_container .logo img {
+    width: 60px;
     height: 50px;
 }
