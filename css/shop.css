@@ -1,0 +1,33 @@
+:root {
+    --primary-background-color: #43DD8E;
+    --secondary-background-color: #4B97A3;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+    line-height: 1.4;
+    background-color: var(--primary-color);
+}
+
+.title_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "nav_menu shop_icon";
+}
+
+.menu-wrap {
+    grid-area: nav_menu;
+}
+
+.shop_button {
+    grid-area: shop_icon;
+    align-self: center;
+    width: 50px;
+    height: 50px;
+}
