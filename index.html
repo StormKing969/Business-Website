@@ -4,46 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOV LSC</title>
 
-    <!-- ===== Font ===== -->
+    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet"> 
 
-    <!-- ===== Custome CSS ===== -->
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./css/menu.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
 
-    <title>Business</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
-    <!-- ===== Menu ===== -->
-    <nav class="menu-wrap">
-        <input type="checkbox" class="toggler">
-        <div class="hamburger">
-            <div></div>
-        </div>
-        <div class="menu">
-            <div>
-                <div>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="./pages/shop.html">Shop</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="./pages/about.html">About Us</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </nav>
+    <!-- Header Section Start -->
+    <header>
+        <a href="#" class="logo">
+            <i class="fab fa-envira"></i>
+            Logo
+        </a>
 
-    <header class="showcase">
-        <div class="container showcase-inner">
-            <h1>Welcome</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero sed vel, quam sunt ducimus ab rerum enim dicta possimus in suscipit velit, id quia placeat excepturi quibusdam incidunt. Et, similique.</p>
-            <a href="./pages/shop.html" class="btn">Explore</a>
-        </div>
+        <div class="fas fa-bars" id="menu-bar"></div>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#popular">Popular</a>
+            <a href="#products">Products</a>
+            <a href="#review">Review</a>
+            <a href="#order">Order</a>
+            <a href="#about">About Us</a>
+        </nav>
     </header>
+    <!-- Header Section End -->
+
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+
+        <div class="content">
+            <h2>Our Exclusive</h2>
+            <h3>Virgin Coconut Oil</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime totam aliquam, officiis ad labore repellat explicabo, fugit consequuntur quam nobis quas animi voluptates praesentium nemo velit quod dolores maiores corporis.</p>
+            <a href="#" class="btn">Order Now</a>
+        </div>
+        
+
+        <div class="image">
+            <img src="./images/products/Coconut-Oil.png" alt="Coconut Oil">
+        </div>
+    </section>
+    <!-- Home Section End -->
 
     <script src="./js/main.js"></script>
 </body>
